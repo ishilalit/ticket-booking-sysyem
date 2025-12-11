@@ -1,0 +1,17 @@
+src/
+  index.js
+  config/
+    db.js
+  models/
+    show.model.js
+    booking.model.js
+  routes/
+    show.routes.js
+    booking.routes.js
+  controllers/
+    show.controller.js
+    booking.controller.js
+  utils/
+    lock.js
+.env
+package.json
