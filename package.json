@@ -3,8 +3,32 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+  "dev": "nodemon src/index.js"
+}
+
   },
   " dependencies": {},
-  "devDependencies": {}
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishilalit/ticket-booking-sysyem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ishilalit/ticket-booking-sysyem/issues"
+  },
+  "homepage": "https://github.com/ishilalit/ticket-booking-sysyem#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
